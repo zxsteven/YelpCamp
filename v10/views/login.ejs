@@ -1,0 +1,15 @@
+<% include ./partials/header.ejs %>
+
+<div class='container'>
+  <div class='row form'>
+    <h1>Sign in!!</h1>
+    
+    <form action='/login' method='POST'>
+      <input type="text" class="form-control" name='username' placeholder="Email">
+      <input type="password" class="form-control" name='password' placeholder="Password">
+      <button type="submit" class="btn btn-outline-info btn-lg btn-block">Sign In</button>
+    </form>
+  </div>
+</div>
+
+<% include ./partials/footer.ejs %>
